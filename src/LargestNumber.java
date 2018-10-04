@@ -20,10 +20,6 @@ public class LargestNumber {
             }
         });
 
-        /*for (String ele: B){
-            System.out.print(ele+" ");
-        }*/
-
         StringBuilder ans = new StringBuilder();
         int result = 0;
         for (int i = B.size() - 1; i >= 0; i--) {
