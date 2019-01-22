@@ -5,8 +5,8 @@ public class NobleInteger {
 
     public static int containNobleInteger(Integer[] arr){
         Arrays.sort(arr);
-
-        for(int i=0;i<arr.length;i++){
+        int len = arr.length;
+        for(int i=0;i<len;i++){
             if(arr[i] == arr.length-i-1)
                 return 1;
         }
